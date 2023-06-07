@@ -1,2 +1,2 @@
 #!/bin/bash
-cd_path=$(pwd -P)
+absolute_path=$(realpath "$PWD")
