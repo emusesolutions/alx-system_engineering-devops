@@ -1,2 +1,5 @@
 #!/bin/bash
-echo "Shell current learning"
+
+# Get the absolute path of the current working directory
+
+cd_path=$(pwd -P)
